@@ -20,12 +20,13 @@ Unlike legacy QMC5883L/HMC5883L sensors, this modern Chinese silicon revision fe
 ## 🛠️ Hardware & Toolchain Profile
 
 - **Target MCU:** STM32F103C8T6 (ARM Cortex-M3 @ 72 MHz)
-- **Sensor:** HP5883 / QMC5883P (Marked as *HP5883 5702*)
+- **Sensor:** HP5883 / QMC5883P (Marked as *HP5883*)
 - **IDE:** STM32CubeIDE (GCC Compiler toolchain)
 - **Bus Profile:** I2C1 Standard Mode (100 kHz)
 - **Verification Hardware:** OWON SDS210S Digital Oscilloscope
 
 ---
+
 
 ## 🔌 Hardware Connection (Pinout)
 
@@ -56,4 +57,4 @@ The initialization configuration writes `0xC3` into `REG_CTRL1 (0x0A)`. This map
 
 ## 🤝 Credits & Acknowledgments
 
-Developed as an educational and portfolio milestone for autonomous unmanned ground vehicle (UGV) navigation algorithms. Special thanks to the **Nanit Robot Academy** engineering community for support and toolchain orchestration.
+Developed as an educational and portfolio milestone for autonomous unmanned ground vehicle (UGV) navigation algorithms. Thank you for your interest in my technical work.
